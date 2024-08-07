@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width:1100px;
+    margin-left:auto;
+    margin-right:auto;
+    font-family: 'Times New Roman', Times, serif;
+    display:flex;
+    justify-content: space-between;
+    margin-top:70px;   
+}
+.container .section-1{
+    width:600px;
+    margin:auto;
+}
+.container .section-1 .article-1{
+    font-size: 50px;
+    max-width: 100%;
+}
+.container .section-1 .article-2{
+    font-size: 30px;
+}
+.container .section-2 img{
+    width: 450px;
+    height:450px;
+    border-radius: 0.5rem;
+}
+.container .section-1 button{
+    width:190px;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 0.8rem;
+    background-color: green;
+    color:white;
+    margin-top: 20px;
+}
+.container .section-2{
+    width:400px;
+    margin:auto;
+    margin-left:10px;
+}
+.container-2,.container-3{
+    display:flex;
+    margin-top: 40px;
+    width:1100px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.icon{
+    width:30px;
+    color: green;
+}
+.container-2 section{
+    margin-left: 50px;
+    width: 330px;
+    padding: 10px;
+}
+.container-2  strong{
+    font-size: 20px;
+}
+.container-2 .section-1{
+    margin-left:0px;
+}
+.container-2 .section-3{
+    margin-right:0px;
+}
+.container-2 p{
+    font-size: 15px;
+    justify-content: space-between;
+}
+.container-3 .section-2{
+    margin-left: 30px;
+}
+.container-3 img{
+    border-radius: 0.3rem;
+}
+.container-3 .section-2 .article-1{
+    font-size: 25px;
+    margin-top:15px;
+    color:white;
+}
+.container-3 .section-2 .article-2{
+    font-size: 20px;
+    margin-top:55px;
+    color:white;
+}
+.container-3{
+    background-color: green;
+    padding:10px;
+    border-radius: 0.5rem;
+}
+.container-4 svg{
+    width:20px;
+    color: green;
+}
+.container-4 div{
+    display: flex;
+}
+.container-4{
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;   
+    margin-top: 80px;
+}
+.container-4 section{
+    border-style:solid;
+    border-color: green;
+    padding: 25px;
+    width:220px;
+    margin: 50px;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 4px;
+}
+.container-4 img{
+    width: 200px;
+    height: 200px;
+}
+.container-4 .article-3{
+    display: flex;
+    margin-top: 20px;
+}
+.container-4 button{
+    float: right;
+    margin-left: 60px;
+    padding: 10px;
+    border-radius: 0.7rem;
+    background-color: greenyellow;
+}
+footer{
+    background-color: black;
+    color: white;
+    margin-top:5%;
+    padding:3%;
+}
